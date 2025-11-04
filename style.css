@@ -1,0 +1,57 @@
+/* 🌸 Warna latar belakang pink lembut */
+body {
+  background-color: #ffe6f2 !important;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Kartu dengan efek lembut */
+.card {
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(255, 0, 102, 0.1);
+}
+
+/* Judul besar */
+h1, h3 {
+  color: #d63384;
+}
+
+/* Tombol utama (untuk tambah dan simpan) */
+.btn-primary {
+  background-color: #ff66b2 !important;
+  border: none;
+}
+.btn-primary:hover {
+  background-color: #ff3385 !important;
+}
+
+/* Tombol lainnya (Edit, Selesai, Hapus) biarkan default Bootstrap */
+
+/* Hover baris tabel */
+.table-hover tbody tr:hover {
+  background-color: #fff0f5;
+}
+
+/* Badge dengan warna lembut */
+.badge.bg-warning {
+  background-color: #ffd1dc !important;
+  color: #8b0000 !important;
+}
+.badge.bg-success {
+  background-color: #ff80bf !important;
+  color: white;
+}
+
+/* 🌸 Tombol khusus menuju halaman timer */
+.btn-pink {
+  background-color: #ff66b2;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 30px;
+  border: none;
+  transition: 0.3s ease;
+}
+
+.btn-pink:hover {
+  background-color: #ff3385;
+  transform: scale(1.05);
+}
